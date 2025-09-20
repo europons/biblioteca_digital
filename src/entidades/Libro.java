@@ -32,20 +32,6 @@ public class Libro {
         this.anyoPublicacion = anyoPublicacion;
     }
 
-    /**
-     * Crea un libro solo con el título.
-     *
-     * @param titulo título del libro.
-     */
-    public Libro(String titulo) {
-        this.titulo = titulo;
-    }
-
-    /** Crea un libro vacío (sin datos iniciales). */
-    public Libro() {
-
-    }
-
     //GETTERS Y SETTERS
     public String getTitulo() {return titulo;}
     public String getAutor() {return autor;}
